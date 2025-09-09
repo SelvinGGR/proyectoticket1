@@ -31,7 +31,7 @@ public class srvUsuario {
         csUsuario p = new csUsuario();
         return p.eliminarUsuario(IDUsuario);
     }
-    @WebMethod(operationName = "listar")
+    @WebMethod(operationName = "listarUsuario")
     public ArrayList<usuarioact> listarUsuario(
     ) 
     {

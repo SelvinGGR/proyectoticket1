@@ -60,7 +60,7 @@ public int actualizarEmpleado(String Puesto, String Departamento,String Nombre, 
             + "Departamento = '" + Departamento + "', "
             + "Nombre = '" + Nombre + "', "
             + "Correo = '" + Correo + "', "
-            + "Telefono = '" + Telefono + "'"
+            + "Telefono = '" + Telefono + "',"
             + "IDEmpresa = " + IDEmpresa + ""
             + "where IDEmpleado = " + IDEmpleado + " "); 
     c1.desconectar();
@@ -73,7 +73,7 @@ public int actualizarEmpleado(String Puesto, String Departamento,String Nombre, 
     }
     return respuesta;
 }
-public int eliminar(int IDEmpleado){
+public int eliminarEmpleado(int IDEmpleado){
     int respuesta=0;
     csConexion c1 = new csConexion();
     con=c1.conectar();
@@ -94,7 +94,7 @@ public int eliminar(int IDEmpleado){
 }
 public ArrayList <empleadoact> listarEmpleado()
 {
-    empresaact  p = null;
+    empleadoact  p = null;
     ArrayList<empleadoact> lista = new ArrayList<empleadoact>();
     lista=null;
     
@@ -127,7 +127,7 @@ public ArrayList <empleadoact> listarEmpleado()
 }
 public empleadoact listarEmpleadoPorID(int IDEmpleado)
 {
-    empresaact p = null;
+    empleadoact p = null;
     
     csConexion c1 = new csConexion();
     con=c1.conectar();
@@ -140,7 +140,7 @@ public empleadoact listarEmpleadoPorID(int IDEmpleado)
         while (rs.next())
             
         {
-            p = new empleadoact(rs.getString("Puesto"),rs.getString("Departamento"),rs.getString("Nombre"),rs.getString("Correo"),rs.getString("Telefono"),rs.getInt("IDEmpleado"),
+            p = new empleadoact(rs.getString("Puesto"),rs.getString("Departamento"),rs.getString("Nombre"),rs.getString("Correo"),rs.getString("Telefono"),rs.getInt("IDEmpresa"),
             rs.getInt(1));
             
         }
