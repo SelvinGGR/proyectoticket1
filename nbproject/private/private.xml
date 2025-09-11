@@ -4,10 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/USER/Desktop/umg2/PROGRA2/proyecto/apis/proyectoticket1/src/java/Modelo/csMotivo.java</file>
+            <file>file:/C:/Users/USER/Desktop/umg2/PROGRA2/proyecto/apis/proyectoticket1/src/java/Modelo/csAtencionCliente.java</file>
+            <file>file:/C:/Users/USER/Desktop/umg2/PROGRA2/proyecto/apis/proyectoticket1/src/java/Modelo/acact.java</file>
             <file>file:/C:/Users/USER/Desktop/umg2/PROGRA2/proyecto/apis/proyectoticket1/src/java/Modelo/motivoact.java</file>
+            <file>file:/C:/Users/USER/Desktop/umg2/PROGRA2/proyecto/apis/proyectoticket1/src/java/swServicios/srvAtencionCliente.java</file>
             <file>file:/C:/Users/USER/Desktop/umg2/PROGRA2/proyecto/apis/proyectoticket1/src/java/swServicios/srvMotivo.java</file>
-            <file>file:/C:/Users/USER/Desktop/umg2/PROGRA2/proyecto/apis/proyectoticket1/src/java/swServicios/srvEmpresa.java</file>
-            <file>file:/C:/Users/USER/Desktop/umg2/PROGRA2/proyecto/apis/proyectoticket1/src/java/Modelo/csUsuario.java</file>
         </group>
     </open-files>
 </project-private>
